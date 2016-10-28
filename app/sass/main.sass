@@ -1,9 +1,8 @@
 @import vars
 
 .wrapper
-		padding-left: 83px
-		padding-right: 83px
-		width: 100%
+		width: 1170px
+		margin: 0 auto
 		position: relative
 		top: 0
 		left: 0
@@ -15,8 +14,8 @@ header
 		top: 0
 		left: 0
 	.wrapper
-		padding-left: 83px
-		padding-right: 83px
+		width: 1200px
+		margin: 0 auto
 		position: relative
 		top: 0
 		left: 0
@@ -56,7 +55,7 @@ header
 		.header-mainContent
 			position: absolute
 			top: 209px
-			right: 83px
+			left: 715px
 			width: 485px
 			.header-mainContent_1
 				font-family: $ubuntuBold
@@ -92,9 +91,9 @@ header
 						font-weight: 600
 		.header-socialIcons
 			position: absolute
-			top: 756px
-			right: 83px
-			img
+			top: 755px
+			right: 0
+			.linkedin-logo
 				margin-top: 15px
 
 section.section-0
@@ -119,6 +118,7 @@ section.section-0
 			background-color: $sectionAboutDividerColor
 	.sectionMainTitle
 		margin-left: 165px
+		letter-spacing: 2px
 	.s0-content
 		margin-top: 133px
 		display: flex
@@ -260,21 +260,21 @@ section.section-0
 	.s0-content-rightLine
 		position: absolute
 		top: 145px
-		left: 783px
+		left: 300px
 		width: 1px
 		height: 490px
 		background-color: $sectionDividerColor
 	.s0-content-rightLine-1
 		position: absolute
 		top: 145px
-		left: 398px
+		left: 700px
 		width: 1px
 		height: 490px
 		background-color: $sectionDividerColor
 	.s0-content-secondrightLine
 		position: absolute
 		top: 390px
-		right: 97px
+		right: -15px
 		width: 1px
 		height: 246px
 		background-color: $sectionDividerColor
@@ -306,10 +306,12 @@ section.section-0
 			margin-left: 124px
 
 section.section-1
+	height: 1596px
 	.sectionTitle
 		margin-top: 216px
 		.sectionMainTitle
 			margin-left: 165px
+			letter-spacing: 2px
 	.section-1_mainContent
 		margin-top: 87px
 		position: relative
@@ -325,14 +327,15 @@ section.section-1
 		position: absolute
 		top: 253px
 		left: 170px
+		letter-spacing: 7px
 		h1
 			color: $mainWhiteTextColor
 			line-height: 62px
 
 	.section-1_mainContent-text
 		position: absolute
-		left: 550px
-		top: 230px
+		left: 500px
+		top: 220px
 	.section-1_mainContent-text-0
 		div
 			display: inline-block
@@ -345,8 +348,8 @@ section.section-1
 
 	.section-1_mainContent-text-1
 		position: absolute
-		left: 160px
-		top: 876px
+		left: 100px
+		top: 860px
 		.section-1_mainContent-text-1_text_0
 			display: inline-block
 			display: flex
@@ -364,8 +367,184 @@ section.section-1
 				font-size: 14px
 	.section-1_mainContent-title_2
 		position: absolute
-		top: 944px
+		top: 910px
 		left: 700px
+		letter-spacing: 7px
 		h1
 			color: $mainWhiteTextColor
 			line-height: 62px
+
+
+section.section-2
+	.section-2-contentBlock
+		width: 1077px
+		height: 491px
+		border: 13px solid $sectionAboutColor
+		margin-top: 132px
+		margin-left: 71px
+		position: relative
+		top: 0
+		left: 0
+	.sectionTitle
+		position: absolute
+		left: -84px
+		top: 81px
+		.sectionMainTitle
+			margin-left: 170px
+			h1
+				line-height: 36px
+				color: $mainTextTitleColor
+				letter-spacing: 3px
+				p
+					margin-top: 20px
+				span
+					color: $sectionAboutColor
+	.sectionTitleNumber
+		margin-top: 0
+	.sectionMainTitle_text
+		font-family: $ptsansRegular
+		font-size: 13px
+		color: $headerTextColor
+		font-weight: 600
+		margin-left: 170px
+		line-height: 21px
+		margin-top: 50px
+	.sectionMainTitle_button
+		display: inline-block
+		position: absolute
+		top: 235px
+		left: 685px
+		margin-left: 70px
+
+section.section-3
+	.sectionTitleNumber
+		margin-top: 150px
+	.sectionMainTitle
+		margin-left: 170px
+	.section-3-content
+		position: relative
+		top: 0
+		left: 0
+		margin-top: 65px
+	.section-3-content,
+	.section-3-content-second
+		display: inline-block
+		width: 498px
+		height: 548px
+		border: 1px solid $sectionDividerColor
+		.section-3-content_redBlock
+			width: 450px
+			height: 160px
+			background-color: $sectionAboutColor
+			position: absolute
+			left: 85px
+			top: 60px
+			img
+				position: absolute
+				top: 42px
+				left: -46px
+			p
+				margin-top: 85px
+				margin-left: 85px
+				font-size: 21px
+				font-family: $ubuntuBold
+				color: $mainWhiteTextColor
+				font-weight: 500
+			span
+				margin-left: 85px
+				margin-top: 15px
+				font-family: $ptsansRegular
+				font-size: 14px
+				color: $dateSectionColor1
+	.section-3-content_text
+		position: absolute
+		top: 246px
+		left: 170px
+		display: inline-block
+	.section-3-content_link
+		position: absolute
+		top: 445px
+		left: 170px
+		a
+			text-decoration: underline
+			color: $sectionAboutColor
+			font-family: $ubuntuBold
+			font-size: 12px
+	.section-3-content-second
+		position: absolute
+		top: 40px
+		left: 635px
+	.section-3-content-reload
+		position: absolute
+		top: 670px
+		left: 770px
+		span
+			margin-top: 5px
+			margin-left: 13px
+		a
+			text-decoration: underline
+			color: $sectionAboutColor
+			font-family: $ubuntuBold
+			font-size: 12px
+
+section.section-questions
+	.sectionTitle
+		margin-top: 180px
+	.sectionMainTitle
+		margin-left: 170px
+	.s-q-c-0
+		position: absolute
+		top: 150px
+		left: 0
+	.s-q-c-1
+		position: absolute
+		top: 222px
+		left: 400px
+	.s-q-c-2
+		position: absolute
+		top: 38px
+		left: 800px
+	.section-questions-content
+		width: 368px
+		height: 487px
+		border: 1px solid $sectionDividerColor
+		.section-questions-content_tittle
+			position: absolute
+			top: 72px
+			left: 38px
+			p
+				font-family: $ubuntuBold
+				font-size: 21px
+				color: $mainTextTitleColor
+				line-height: 27px
+			span
+				font-size: 14px
+				font-family: $ptsansRegular
+				color: $mainTextColor
+				font-weight: 600
+				line-height: 40px
+		.section-questions-content_text
+			position: absolute
+			top: 207px
+			left: 36px
+		.section-questions-link
+			position: absolute
+			top: 408px
+			left: 38px
+			a
+				text-decoration: underline
+				color: $sectionAboutColor
+				font-family: $ubuntuBold
+				font-size: 12px
+			img
+				margin-left: 20px
+			span
+				margin-top: 2px
+				margin-left: 7px
+				font-size: 14px
+				font-family: $ptsansRegular
+				color: $viewSectionColor
+	.section-questions-button
+		position: absolute
+		left: 850px
+		top: 620px

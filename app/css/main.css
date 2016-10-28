@@ -2,8 +2,7 @@
 /*BorderSectionSession*/
 body {
   margin: 0;
-  padding: 0;
-  width: 1365px; }
+  padding: 0; }
 
 input,
 textarea {
@@ -81,18 +80,18 @@ a {
       color: #ee463a;
       font-family: "UbuntuBold";
       font-size: 12px;
-      line-height: 12px; }
+      line-height: 12px;
+      letter-spacing: 1px; }
   .sectionTitleNumber .sectionTitleNumberLine {
     margin-left: 22px;
     margin-right: 19px;
     width: 115px;
-    height: 1px;
+    height: 2px;
     background-color: #e0e0e0; }
 
 .wrapper {
-  padding-left: 83px;
-  padding-right: 83px;
-  width: 100%;
+  width: 1170px;
+  margin: 0 auto;
   position: relative;
   top: 0;
   left: 0; }
@@ -105,8 +104,8 @@ header {
     top: 0;
     left: 0; }
   header .wrapper {
-    padding-left: 83px;
-    padding-right: 83px;
+    width: 1200px;
+    margin: 0 auto;
     position: relative;
     top: 0;
     left: 0; }
@@ -146,7 +145,7 @@ header {
     header .wrapper .header-mainContent {
       position: absolute;
       top: 209px;
-      right: 83px;
+      left: 715px;
       width: 485px; }
       header .wrapper .header-mainContent .header-mainContent_1 {
         font-family: "UbuntuBold";
@@ -190,9 +189,9 @@ header {
             font-weight: 600; }
     header .wrapper .header-socialIcons {
       position: absolute;
-      top: 756px;
-      right: 83px; }
-      header .wrapper .header-socialIcons img {
+      top: 755px;
+      right: 0; }
+      header .wrapper .header-socialIcons .linkedin-logo {
         margin-top: 15px; }
 
 section.section-0 {
@@ -224,7 +223,8 @@ section.section-0 {
       height: 1px;
       background-color: #e0e0e0; }
   section.section-0 .sectionMainTitle {
-    margin-left: 165px; }
+    margin-left: 165px;
+    letter-spacing: 2px; }
   section.section-0 .s0-content {
     margin-top: 133px;
     display: -webkit-box;
@@ -381,21 +381,21 @@ section.section-0 {
   section.section-0 .s0-content-rightLine {
     position: absolute;
     top: 145px;
-    left: 783px;
+    left: 300px;
     width: 1px;
     height: 490px;
     background-color: #eaeaea; }
   section.section-0 .s0-content-rightLine-1 {
     position: absolute;
     top: 145px;
-    left: 398px;
+    left: 700px;
     width: 1px;
     height: 490px;
     background-color: #eaeaea; }
   section.section-0 .s0-content-secondrightLine {
     position: absolute;
     top: 390px;
-    right: 97px;
+    right: -15px;
     width: 1px;
     height: 246px;
     background-color: #eaeaea; }
@@ -432,78 +432,268 @@ section.section-0 {
     margin-top: 23px;
     margin-left: 124px; }
 
-section.section-1 .sectionTitle {
-  margin-top: 216px; }
-  section.section-1 .sectionTitle .sectionMainTitle {
-    margin-left: 165px; }
-
-section.section-1 .section-1_mainContent {
-  margin-top: 87px;
-  position: relative; }
-  section.section-1 .section-1_mainContent .section-1_mainContent_img {
+section.section-1 {
+  height: 1596px; }
+  section.section-1 .sectionTitle {
+    margin-top: 216px; }
+    section.section-1 .sectionTitle .sectionMainTitle {
+      margin-left: 165px;
+      letter-spacing: 2px; }
+  section.section-1 .section-1_mainContent {
+    margin-top: 87px;
+    position: relative; }
+    section.section-1 .section-1_mainContent .section-1_mainContent_img {
+      position: absolute;
+      top: 0;
+      z-index: -1; }
+    section.section-1 .section-1_mainContent .section-1_mainContent_img-1 {
+      position: absolute;
+      top: 720px;
+      z-index: -1; }
+  section.section-1 .section-1_mainContent-title {
     position: absolute;
-    top: 0;
-    z-index: -1; }
-  section.section-1 .section-1_mainContent .section-1_mainContent_img-1 {
-    position: absolute;
-    top: 720px;
-    z-index: -1; }
-
-section.section-1 .section-1_mainContent-title {
-  position: absolute;
-  top: 253px;
-  left: 170px; }
-  section.section-1 .section-1_mainContent-title h1 {
-    color: #ffffff;
-    line-height: 62px; }
-
-section.section-1 .section-1_mainContent-text {
-  position: absolute;
-  left: 550px;
-  top: 230px; }
-
-section.section-1 .section-1_mainContent-text-0 div {
-  display: inline-block;
-  margin-left: 26px; }
-
-section.section-1 .section-1_mainContent-text-0 p {
-  color: #ffffff;
-  line-height: 35px;
-  font-family: "PTSansRegular", sans-serif;
-  font-size: 14px; }
-
-section.section-1 .section-1_mainContent-text-1 {
-  position: absolute;
-  left: 160px;
-  top: 876px; }
-  section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 {
-    display: inline-block;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -moz-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    margin-top: 20px; }
-    section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 img {
-      margin-top: 5px; }
-    section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 div {
-      display: inline-block;
-      margin-left: 26px; }
-    section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 p {
+    top: 253px;
+    left: 170px;
+    letter-spacing: 7px; }
+    section.section-1 .section-1_mainContent-title h1 {
       color: #ffffff;
-      line-height: 20px;
-      font-family: "PTSansRegular", sans-serif;
-      font-size: 14px; }
-
-section.section-1 .section-1_mainContent-title_2 {
-  position: absolute;
-  top: 944px;
-  left: 700px; }
-  section.section-1 .section-1_mainContent-title_2 h1 {
+      line-height: 62px; }
+  section.section-1 .section-1_mainContent-text {
+    position: absolute;
+    left: 500px;
+    top: 220px; }
+  section.section-1 .section-1_mainContent-text-0 div {
+    display: inline-block;
+    margin-left: 26px; }
+  section.section-1 .section-1_mainContent-text-0 p {
     color: #ffffff;
-    line-height: 62px; }
+    line-height: 35px;
+    font-family: "PTSansRegular", sans-serif;
+    font-size: 14px; }
+  section.section-1 .section-1_mainContent-text-1 {
+    position: absolute;
+    left: 100px;
+    top: 860px; }
+    section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 {
+      display: inline-block;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -moz-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      margin-top: 20px; }
+      section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 img {
+        margin-top: 5px; }
+      section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 div {
+        display: inline-block;
+        margin-left: 26px; }
+      section.section-1 .section-1_mainContent-text-1 .section-1_mainContent-text-1_text_0 p {
+        color: #ffffff;
+        line-height: 20px;
+        font-family: "PTSansRegular", sans-serif;
+        font-size: 14px; }
+  section.section-1 .section-1_mainContent-title_2 {
+    position: absolute;
+    top: 910px;
+    left: 700px;
+    letter-spacing: 7px; }
+    section.section-1 .section-1_mainContent-title_2 h1 {
+      color: #ffffff;
+      line-height: 62px; }
+
+section.section-2 .section-2-contentBlock {
+  width: 1077px;
+  height: 491px;
+  border: 13px solid #ee463a;
+  margin-top: 132px;
+  margin-left: 71px;
+  position: relative;
+  top: 0;
+  left: 0; }
+
+section.section-2 .sectionTitle {
+  position: absolute;
+  left: -84px;
+  top: 81px; }
+  section.section-2 .sectionTitle .sectionMainTitle {
+    margin-left: 170px; }
+    section.section-2 .sectionTitle .sectionMainTitle h1 {
+      line-height: 36px;
+      color: #3a3a3a;
+      letter-spacing: 3px; }
+      section.section-2 .sectionTitle .sectionMainTitle h1 p {
+        margin-top: 20px; }
+      section.section-2 .sectionTitle .sectionMainTitle h1 span {
+        color: #ee463a; }
+
+section.section-2 .sectionTitleNumber {
+  margin-top: 0; }
+
+section.section-2 .sectionMainTitle_text {
+  font-family: "PTSansRegular", sans-serif;
+  font-size: 13px;
+  color: #757575;
+  font-weight: 600;
+  margin-left: 170px;
+  line-height: 21px;
+  margin-top: 50px; }
+
+section.section-2 .sectionMainTitle_button {
+  display: inline-block;
+  position: absolute;
+  top: 235px;
+  left: 685px;
+  margin-left: 70px; }
+
+section.section-3 .sectionTitleNumber {
+  margin-top: 150px; }
+
+section.section-3 .sectionMainTitle {
+  margin-left: 170px; }
+
+section.section-3 .section-3-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 65px; }
+
+section.section-3 .section-3-content,
+section.section-3 .section-3-content-second {
+  display: inline-block;
+  width: 498px;
+  height: 548px;
+  border: 1px solid #eaeaea; }
+  section.section-3 .section-3-content .section-3-content_redBlock,
+  section.section-3 .section-3-content-second .section-3-content_redBlock {
+    width: 450px;
+    height: 160px;
+    background-color: #ee463a;
+    position: absolute;
+    left: 85px;
+    top: 60px; }
+    section.section-3 .section-3-content .section-3-content_redBlock img,
+    section.section-3 .section-3-content-second .section-3-content_redBlock img {
+      position: absolute;
+      top: 42px;
+      left: -46px; }
+    section.section-3 .section-3-content .section-3-content_redBlock p,
+    section.section-3 .section-3-content-second .section-3-content_redBlock p {
+      margin-top: 85px;
+      margin-left: 85px;
+      font-size: 21px;
+      font-family: "UbuntuBold";
+      color: #ffffff;
+      font-weight: 500; }
+    section.section-3 .section-3-content .section-3-content_redBlock span,
+    section.section-3 .section-3-content-second .section-3-content_redBlock span {
+      margin-left: 85px;
+      margin-top: 15px;
+      font-family: "PTSansRegular", sans-serif;
+      font-size: 14px;
+      color: #b31e14; }
+
+section.section-3 .section-3-content_text {
+  position: absolute;
+  top: 246px;
+  left: 170px;
+  display: inline-block; }
+
+section.section-3 .section-3-content_link {
+  position: absolute;
+  top: 445px;
+  left: 170px; }
+  section.section-3 .section-3-content_link a {
+    text-decoration: underline;
+    color: #ee463a;
+    font-family: "UbuntuBold";
+    font-size: 12px; }
+
+section.section-3 .section-3-content-second {
+  position: absolute;
+  top: 40px;
+  left: 635px; }
+
+section.section-3 .section-3-content-reload {
+  position: absolute;
+  top: 670px;
+  left: 770px; }
+  section.section-3 .section-3-content-reload span {
+    margin-top: 5px;
+    margin-left: 13px; }
+  section.section-3 .section-3-content-reload a {
+    text-decoration: underline;
+    color: #ee463a;
+    font-family: "UbuntuBold";
+    font-size: 12px; }
+
+section.section-questions .sectionTitle {
+  margin-top: 180px; }
+
+section.section-questions .sectionMainTitle {
+  margin-left: 170px; }
+
+section.section-questions .s-q-c-0 {
+  position: absolute;
+  top: 150px;
+  left: 0; }
+
+section.section-questions .s-q-c-1 {
+  position: absolute;
+  top: 222px;
+  left: 400px; }
+
+section.section-questions .s-q-c-2 {
+  position: absolute;
+  top: 38px;
+  left: 800px; }
+
+section.section-questions .section-questions-content {
+  width: 368px;
+  height: 487px;
+  border: 1px solid #eaeaea; }
+  section.section-questions .section-questions-content .section-questions-content_tittle {
+    position: absolute;
+    top: 72px;
+    left: 38px; }
+    section.section-questions .section-questions-content .section-questions-content_tittle p {
+      font-family: "UbuntuBold";
+      font-size: 21px;
+      color: #3a3a3a;
+      line-height: 27px; }
+    section.section-questions .section-questions-content .section-questions-content_tittle span {
+      font-size: 14px;
+      font-family: "PTSansRegular", sans-serif;
+      color: #757575;
+      font-weight: 600;
+      line-height: 40px; }
+  section.section-questions .section-questions-content .section-questions-content_text {
+    position: absolute;
+    top: 207px;
+    left: 36px; }
+  section.section-questions .section-questions-content .section-questions-link {
+    position: absolute;
+    top: 408px;
+    left: 38px; }
+    section.section-questions .section-questions-content .section-questions-link a {
+      text-decoration: underline;
+      color: #ee463a;
+      font-family: "UbuntuBold";
+      font-size: 12px; }
+    section.section-questions .section-questions-content .section-questions-link img {
+      margin-left: 20px; }
+    section.section-questions .section-questions-content .section-questions-link span {
+      margin-top: 2px;
+      margin-left: 7px;
+      font-size: 14px;
+      font-family: "PTSansRegular", sans-serif;
+      color: #c5c5c5; }
+
+section.section-questions .section-questions-button {
+  position: absolute;
+  left: 850px;
+  top: 620px; }
