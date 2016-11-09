@@ -89,6 +89,9 @@ a {
     height: 2px;
     background-color: #e0e0e0; }
 
+.sectionMainTitle {
+  margin-left: 170px; }
+
 .wrapper {
   width: 1170px;
   margin: 0 auto;
@@ -631,69 +634,145 @@ section.section-3 .section-3-content-reload {
     font-family: "UbuntuBold";
     font-size: 12px; }
 
-section.section-questions .sectionTitle {
-  margin-top: 180px; }
-
-section.section-questions .sectionMainTitle {
-  margin-left: 170px; }
-
-section.section-questions .s-q-c-0 {
-  position: absolute;
-  top: 150px;
-  left: 0; }
-
-section.section-questions .s-q-c-1 {
-  position: absolute;
-  top: 222px;
-  left: 400px; }
-
-section.section-questions .s-q-c-2 {
-  position: absolute;
-  top: 38px;
-  left: 800px; }
-
-section.section-questions .section-questions-content {
-  width: 368px;
-  height: 487px;
-  border: 1px solid #eaeaea; }
-  section.section-questions .section-questions-content .section-questions-content_tittle {
+section.section-questions {
+  height: 711px; }
+  section.section-questions .sectionTitle {
+    margin-top: 180px; }
+  section.section-questions .sectionMainTitle {
+    margin-left: 170px; }
+  section.section-questions .s-q-c-0 {
     position: absolute;
-    top: 72px;
-    left: 38px; }
-    section.section-questions .section-questions-content .section-questions-content_tittle p {
-      font-family: "UbuntuBold";
-      font-size: 21px;
-      color: #3a3a3a;
-      line-height: 27px; }
-    section.section-questions .section-questions-content .section-questions-content_tittle span {
-      font-size: 14px;
-      font-family: "PTSansRegular", sans-serif;
-      color: #757575;
-      font-weight: 600;
-      line-height: 40px; }
-  section.section-questions .section-questions-content .section-questions-content_text {
+    top: 150px;
+    left: 0; }
+  section.section-questions .s-q-c-1 {
     position: absolute;
-    top: 207px;
-    left: 36px; }
-  section.section-questions .section-questions-content .section-questions-link {
+    top: 222px;
+    left: 400px; }
+  section.section-questions .s-q-c-2 {
     position: absolute;
-    top: 408px;
-    left: 38px; }
-    section.section-questions .section-questions-content .section-questions-link a {
-      text-decoration: underline;
-      color: #ee463a;
-      font-family: "UbuntuBold";
-      font-size: 12px; }
-    section.section-questions .section-questions-content .section-questions-link img {
-      margin-left: 20px; }
-    section.section-questions .section-questions-content .section-questions-link span {
-      margin-top: 2px;
-      margin-left: 7px;
-      font-size: 14px;
-      font-family: "PTSansRegular", sans-serif;
-      color: #c5c5c5; }
+    top: 38px;
+    left: 800px; }
+  section.section-questions .section-questions-content {
+    width: 368px;
+    height: 487px;
+    border: 1px solid #eaeaea; }
+    section.section-questions .section-questions-content .section-questions-content_tittle {
+      position: absolute;
+      top: 72px;
+      left: 38px; }
+      section.section-questions .section-questions-content .section-questions-content_tittle p {
+        font-family: "UbuntuBold";
+        font-size: 21px;
+        color: #3a3a3a;
+        line-height: 27px; }
+      section.section-questions .section-questions-content .section-questions-content_tittle span {
+        font-size: 14px;
+        font-family: "PTSansRegular", sans-serif;
+        color: #757575;
+        font-weight: 600;
+        line-height: 40px; }
+    section.section-questions .section-questions-content .section-questions-content_text {
+      position: absolute;
+      top: 207px;
+      left: 36px; }
+    section.section-questions .section-questions-content .section-questions-link {
+      position: absolute;
+      top: 408px;
+      left: 38px; }
+      section.section-questions .section-questions-content .section-questions-link a {
+        text-decoration: underline;
+        color: #ee463a;
+        font-family: "UbuntuBold";
+        font-size: 12px; }
+      section.section-questions .section-questions-content .section-questions-link img {
+        margin-left: 20px; }
+      section.section-questions .section-questions-content .section-questions-link span {
+        margin-top: 2px;
+        margin-left: 7px;
+        font-size: 14px;
+        font-family: "PTSansRegular", sans-serif;
+        color: #c5c5c5; }
+  section.section-questions .section-questions-button {
+    position: absolute;
+    left: 850px;
+    top: 620px; }
 
-section.section-questions .section-questions-button {
-  position: absolute;
-  left: 850px;
-  top: 620px; }
+footer {
+  margin-top: 40px;
+  position: relative; }
+  footer .footerImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 75px;
+    width: 100%; }
+  footer .sectionTitle {
+    position: absolute;
+    top: 285px; }
+  footer .sectionMainTitle h1 {
+    color: #ffffff; }
+  footer .footer-content {
+    display: inline-block;
+    position: absolute;
+    top: 515px;
+    left: 165px; }
+    footer .footer-content .footer-content-socialicons div {
+      display: inline-block;
+      color: #ffffff;
+      margin-left: 14px; }
+    footer .footer-content .footerMargin {
+      margin-top: 26px; }
+  footer .footer-content-contactForm {
+    position: absolute;
+    top: 500px;
+    left: 600px; }
+    footer .footer-content-contactForm input {
+      width: 385px;
+      background-color: #333333;
+      border: none;
+      border-top: 1px solid #7d7d7d;
+      padding: 13px 0 45px 0;
+      color: #ffffff; }
+    footer .footer-content-contactForm button {
+      width: 274px;
+      height: 54px;
+      background: -webkit-gradient(linear, left top, left bottom, from(#ef473a), to(#cb2d3e));
+      background: -webkit-linear-gradient(top, #ef473a, #cb2d3e);
+      background: -o-linear-gradient(top, #ef473a, #cb2d3e);
+      background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+      border: none;
+      -webkit-border-radius: 35px;
+      border-radius: 35px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative; }
+      footer .footer-content-contactForm button:after {
+        content: '';
+        width: 270px;
+        height: 50px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        background-color: #333333;
+        -webkit-border-radius: 35px;
+        border-radius: 35px; }
+      footer .footer-content-contactForm button p {
+        float: left;
+        z-index: 2;
+        margin-right: 120px;
+        margin-left: 32px;
+        color: #e7413b;
+        font-size: 12px;
+        font-family: "UbuntuBold"; }
+      footer .footer-content-contactForm button img {
+        float: right;
+        z-index: 2; }
